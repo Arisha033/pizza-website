@@ -1,0 +1,42 @@
+/* large devices */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .menu-img{
+        width: 15rem;
+    }
+    
+}
+/* medium devices */
+@media (min-width: 767px) and (max-width: 1200px) {
+    .menu-img{
+        width: 10rem;
+    }
+    
+}
+/* small devices */
+@media (min-width:0px) and (max-width:500px){
+    .menu-content{
+        width:20rem;
+        text-align: center;
+    }
+
+    .menu-img{
+       width: 10rem;
+    }
+
+    .hero{
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+
+}
+    .footer{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+}
+}
